@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require_relative '../lib/wild_card_standings'
+
+WildCardStandings::CLI.new.call
